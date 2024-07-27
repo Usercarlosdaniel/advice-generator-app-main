@@ -1,0 +1,13 @@
+@use "../util/breakpoints" as *;
+
+.hidden {
+  display: none;
+  @include breakpoint(medium) {
+    display: block;
+  }
+}
+.hidden-later {
+    @include breakpoint(medium){
+        display: none;
+    }
+}
