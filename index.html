@@ -20,7 +20,15 @@
       rel="stylesheet"
     />
 
-<link rel="stylesheet" href="dist/main.css">
+    <link rel="stylesheet" href="dist/main.css" />
+
+    <style>
+      @media (min-width: 48rem) {
+        #container div > img {
+          content: url("./src/assets/svg/pattern-divider-desktop.svg");
+        }
+      }
+    </style>
 
     <title>Frontend Mentor | Advice generator app</title>
   </head>
@@ -36,7 +44,9 @@
         <q class="quote" id="quote"><!-- Advice text goes here --></q>
       </div>
 
-      <div><img src="src/assets/svg/pattern-divider-mobile.svg" alt="divider"></div>
+      <div>
+        <img src="src/assets/svg/pattern-divider-mobile.svg" alt="divider" />
+      </div>
       <button id="dice"><img src="src/assets/svg/icon-dice.svg" /></button>
     </main>
   </body>

@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 19rem;
   max-width: 100%;
   gap: 1rem;
   padding: 1rem;
@@ -17,8 +18,5 @@
   @include breakpoint(medium) {
     gap: 2rem;
     width: 31.25rem;
-    & div > img {
-      content: url("/src/assets/svg/pattern-divider-desktop.svg");
-    }
   }
 }
