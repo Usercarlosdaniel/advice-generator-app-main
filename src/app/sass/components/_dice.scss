@@ -1,0 +1,14 @@
+@use "../base/root" as *;
+@use "../util/breakpoints" as *;
+
+#dice {
+  background-color: $primary-300;
+  outline: none;
+  appearance: none;
+  border: none;
+  padding: 1rem;
+  border-radius: 100%;
+  margin-top: 1rem;
+  margin-bottom: -40px;
+  cursor: pointer;
+}

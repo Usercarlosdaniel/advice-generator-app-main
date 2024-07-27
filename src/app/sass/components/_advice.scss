@@ -1,0 +1,16 @@
+@use "../base/root" as *;
+
+.advice-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: $primary-300;
+  & .quote-hashtag,
+  .advice-number {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,21 @@
+:root {
+  // primaries
+  --primary-150: hsl(193, 38%, 86%);
+  --primary-300: hsl(150, 100%, 66%);
+
+  // neutral
+  --neutral-650: hsl(217, 19%, 38%);
+  --neutral-750: hsl(217, 19%, 24%);
+  --neutral-850: hsl(218, 23%, 16%);
+
+  // font family
+  --family-manrope: "Manrope", sans-serif;
+}
+$primary-150: var(--primary-150);
+$primary-300: var(--primary-300);
+$neutral-650: var(--neutral-650);
+$neutral-750: var(--neutral-750);
+$neutral-850: var(--neutral-850);
+$family-manrope: var(--family-manrope);
+
+

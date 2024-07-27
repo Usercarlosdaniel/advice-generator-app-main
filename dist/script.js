@@ -1,0 +1,1 @@
+const quote=document.getElementById("quote"),idNumber=document.querySelector(".advice-number"),diceRoll=document.getElementById("dice");diceRoll.addEventListener("click",(()=>{fetch("https://api.adviceslip.com/advice").then((e=>e.json())).then((e=>{quote.innerHTML=e.slip.advice,idNumber.innerHTML=e.slip.id}))}));//# sourceMappingURL=script.js.map

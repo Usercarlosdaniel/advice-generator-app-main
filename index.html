@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./public/favicon-32x32.png"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+<link rel="stylesheet" href="dist/main.css">
+
+    <title>Frontend Mentor | Advice generator app</title>
+  </head>
+  <body>
+    <main id="container">
+      <div class="advice-block">
+        <h2 class="advice">Advice</h2>
+        <span class="quote-hashtag">#</span>
+        <span class="advice-number">0</span>
+      </div>
+      <!-- Advice ID goes here -->
+      <div>
+        <q class="quote" id="quote"><!-- Advice text goes here --></q>
+      </div>
+
+      <div><img src="src/assets/svg/pattern-divider-mobile.svg" alt="divider"></div>
+      <button id="dice"><img src="src/assets/svg/icon-dice.svg" /></button>
+    </main>
+  </body>
+  <script src="dist/script.js"></script>
+</html>

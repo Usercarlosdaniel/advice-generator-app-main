@@ -1,0 +1,11 @@
+@use "../base/root" as *;
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background: $neutral-850;
+  font-family: $family-manrope;
+  font-weight: 500;
+}
